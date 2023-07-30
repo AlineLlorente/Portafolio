@@ -42,3 +42,7 @@ El texto e la página web escrito en español, sin embargo las clases relacionad
 Desarrollado en: Tecnolochicas PRO Summer Camp 2023
 
 Aline Romero Llorente.
+
+## Agradecimientos
+
+Quiero agradecer a las mentoras del bootcamp TECNOLOCHICAS PRO summer 2023 ya que nos ayudaron de la mejor manera en todas las dudas y problemas que surgieron durante las sesiones. 
