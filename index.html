@@ -19,21 +19,22 @@
             <li class="nav-item"><a href="#perfil" class="nav-link" aria-current="page">Perfil</a></li>
             <li class="nav-item"><a href="#secciones" class="nav-link">Secciones</a></li>
             <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
-            <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+            <li class="nav-item"><a href="#constancias" class="nav-link">Constancias</a></li>
             <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
         </ul>
     </header>
     <!-- Perfil (foto, descripción, imagen bonita) -->
-    <section class="container my-5">
-        <article class="row p-4 pb-0 pt-lg-5 justify-content-center align-items-center rounded-3 border shadow-lg">
-            <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center px-3 px-lg-5 pt-lg-3">
-                <img id="img-perfil" src="images/perfil.jpeg" class="img-thumbnail rounded-circle" alt="Foto de perfil">
-                <h1 class="display-6 fw-bold lh-1 text-body-emphasis">Aline Llorente</h1>
-                <p class="lead">Estudiante de la Licenciatura en Biotecnología / Liderazgo y asertividad</p>
-            </div>
-            <div class="col-lg-6 d-flex flex-column align-items-center">
-                <img id="img-stack" src="images/iconos.jpg" class="img-fluid" alt="Stack">
-            </div>
+    <div id="HeaderPerfil"  class="row p-4 pb-0 pe-lg-0 pt-lg-5 justify-content-center align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center p-3 p-lg-5 pt-lg-3">
+            <img width="200" id="img-perfil" src="images/perfil.jpeg" class="img-thumbnail rounded-circle" alt="Foto de perfil">
+            <h1 id="Nombre" class="display- fw-bold lh-2  white-text">Aline Llorente</h1>
+            <p id="Escuela" class="lead fw-bold">Estudiante de la Licenciatura en Biotecnología / Liderazgo y asertividad</p>
+        </div>
+        <div class="col-lg-6 d-flex flex-column align-items-center">
+            <img id="img-stack" src="images/iconos.jpg" class="img-fluid" alt="Stack">
+        </div>
+</div> 
+   
             <!-- <div class="col-lg-6 d-flex flex-column align-items-start justify-content-center py-3 py-lg-5 pt-lg-3">
                 <p>Lorem </p>
             </div> -->
@@ -71,122 +72,134 @@
             </div>
         </div>
     </section>
-    <!-- Proyectos -->
-    <section class="container my-5">
-        <div class="row rounded-3 border shadow-lg">
-            <div class="row py-3 justify-content-center text-center">
-                <h2>Proyectos</h2>
-            </div>
-            <div class="row row-cols-1 row-cols-lg-3 m-0 align-items-stretch g-4">
-                <div class="col">
-                    <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Sitio Web</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Clon Google</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Nombre Proyecto</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Nombre Proyecto</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Nombre Proyecto</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
-                            <h4 class="titulo-proyecto pt-5 mt-3 mb-2 display-6 lh-1 fw-bold ">Proyecto 6</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
+   <!--Sección de Programación Web-->
+   <div class="container" id="seccion-web">
+    <section class="row m-5">
+        <div class="col-12 d-flex justify-content-start" id="seccion-ilustracion">
+            <h2 class="display-5 fw-bold text-body-emphasis lh-1 my-5">PROYECTOS</h2>
         </div>
+        <div class="col-lg-6 d-flex flex-column align-items-center">
+            <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="images/logo.png"
+                role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"
+                alt="Logo-google">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            </img>
+            <h2 class="fw-bold text-center">Clon de Google</h2>
+            <p class="text-center">Proyecto elaborado durante el bootcamp: <em>"Tecnolochicas PRO
+                     Summer 2023"</em>, con el objetivo de entender y replicar la estructura de una página web con el uso de
+                HTML y CSS.</p>
+            <p><a id="clon" data-bs-toggle="modal" data-bs-target="#modal-clon" class="btn btn-secondary">Ver
+                    trabajo</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6 d-flex flex-column align-items-center">
+            <img class="bd-placeholder-img rounded-circle" width="200" height="200"
+                src="images/hongo.jpg" role="img" aria-label="Placeholder"
+                preserveAspectRatio="xMidYMid slice" focusable="false" alt="Amelie Mourichon- Unsplash">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            </img>
+            <h2 class="fw-bold">Sitio web</h2>
+            <p class="text-center">Esta página fue realizada durante el bootcamp: <em>"Tecnolochicas PRO Summer 2023",
+                </em> sobre un tema de mi interés que fue Aplicaciones de los hongos en la Biotecnología.</p>
+            <p><a id="sitio" data-bs-toggle="modal" data-bs-target="#modal-sitio" class="btn btn-secondary">Ver
+                    trabajo</a></p>
     </section>
-    <!-- Testimonios -->
-    <section class="container my-5">
-        <div class="row rounded-3 border shadow-lg">
-            <div class="row py-3 justify-content-center text-center"><h2>Testimonios</h2></div>
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="carousel-caption d-flex justify-content-center">
-                        <div class="col-lg-4">
-                            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                            <h2 class="fw-normal">Heading</h2>
-                            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                          </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item active">
-                    <div class="carousel-caption d-flex justify-content-center">
-                        <div class="col-lg-4">
-                            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                            <h2 class="fw-normal">Heading</h2>
-                            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                          </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item active">
-                    <div class="carousel-caption d-flex justify-content-center">
-                        <div class="col-lg-4">
-                            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                            <h2 class="fw-normal">Heading</h2>
-                            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                          </div>
-                    </div>
+</div>
+   <!-- Constancias -->
+<div id="containerProyectos" class="container my-5 rounded-4 border shadow-lg" >
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-4 border shadow-lg">
+    
+        <h1 id="Constancias" class="display-4 fw-bold lh-1 text-body-emphasis">Constancias y Tests</h1>
+     
+         
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="images/TPRO.png" alt="TPRO" width="350 px">
+                <div class="card-body">
+                  <p class="card-text">Tecnolochicas PRO SUMMER 2023</p>
+                  <div class="d-flex justify-content-between align-items-center">
+
+                    <small class="text-body-secondary">En proceso</small>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+              </div>
             </div>
-        </div>
-    </section>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="images/Inglés.png" alt="Ingles">
+                <div class="card-body">
+                  <p class="card-text">Constancia por EF SET</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-body-secondary">Julio 27, 2023</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="images/habilidades.png" alt="habilidades" width="250 px">
+                <div class="card-body">
+                  <p class="card-text">Test de Habilidades por RedBull</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-body-secondary">Julio 27, 2023</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+                   
+          </div>
     <!-- Contacto -->
     <footer class="bg-dark text-secondary py-5 text-center">
         <div class="py-5">
-            <h1 class="display-5 fw-bold text-white">Dark color hero</h1>
+            <h1 class="display-5 fw-bold text-white">Contacto.</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
-                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <p class="fs-5 mb-4">Aline Romero Llorente / 7229087480 / alineromero295@gmail.com / https://www.linkedin.com/in/aline-michelle-romero-llorente-54ba40285
+                </p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <i class="icono bi bi-github"></i>
+                    <p>https://github.com/AlineLlorente</p>
                 </div>
             </div>
         </div>
     </footer>
+ <!--Modal Clon Google-->
+ <div id="modal-clon" class="modal" tabindex="-1"> <!--Modal para contacto por correo electrónico-->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">Página Clon de Google</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <a href="https://main--ubiquitous-raindrop-7d859b.netlify.app/" target="_blank" rel="noopener noreferrer">Da click aquí para ir al sitio</a>
+                <br>
+                <br>
+                <img src="images/clon-google.png"  width="750" alt="vista previa pagina">
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal Sitio web-->
+<div id="modal-sitio" class="modal" tabindex="-1"> <!--Modal para contacto por correo electrónico-->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">Sitio web</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <a href="https://polite-hummingbird-633dfc.netlify.app/" target="_blank" rel="noopener noreferrer">Da click aquí para ir al sitio</a>
+                <br>
+                <br>
+                 <img src="images/sitio-web-hongos.png" width="750" alt="fansite NCT 127">
+            </div>
+        </div>
+    </div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>

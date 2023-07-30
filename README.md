@@ -8,12 +8,12 @@ El propósito del sitio web es mostrar el portafolio de proyectos de un(a) desar
 
 Incluye uma descripción de su motivación, experiencia, proyectos, artículos publicitarios y formas de contacto.
 
-También contiene una sección de almacenamiento de archivos *(imágenes)* que nos permiten modificar la imagen de perfil del desarrollador y contiene una animación desarrollada con JavaScript.
+También contiene una sección de almacenamiento de archivos *(imágenes)* que nos permiten modificar la imagen de perfil del desarrollador.
 
 ## Demo
 
 Puedes entrar a ver el demo en este vínculo: 
-https://tangerine-cobbler-73041c.netlify.app/
+https://symphonious-gingersnap-126408.netlify.app/
 
 La idea es inspirarte con esta demostración de proyecto. 
 
@@ -38,4 +38,4 @@ El texto e la página web escrito en español, sin embargo las clases relacionad
 
 Desarrollado en: Tecnolochicas PRO Summer Camp 2023
 
-Claudia Carrizosa 
+Aline Romero Llorente.
