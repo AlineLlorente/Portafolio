@@ -20,7 +20,7 @@ https://symphonious-gingersnap-126408.netlify.app/
 
 La idea es inspirarte con esta demostración de proyecto. 
 
-No te desesperes si no lo logras a la primera, reuerda que todo lleva esfuerzo y mucho tiempo. 
+No te desesperes si no lo logras a la primera, recuerda que todo lleva esfuerzo y mucho tiempo. 
 No dudes en escribirnos si tienes alguna duda o sugerencia. 
 
 ## Tecnologías
