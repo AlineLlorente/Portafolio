@@ -15,10 +15,13 @@ También contiene una sección de almacenamiento de archivos *(imágenes)* que n
 Puedes entrar a ver el demo en este vínculo: 
 https://symphonious-gingersnap-126408.netlify.app/
 
+![imagen](images/boostrap.png)
+![imagen](images/boostrap2.png)
+
 La idea es inspirarte con esta demostración de proyecto. 
 
-**¡Quizá no te quede idéntico o quizá te quede mucho mejor que este demo🤩**, utiliza tu destreza y aprendizaje para que demuestres que tu futuro es ser un(a) programador(a) web.👩🏻💻👦🏻
-
+No te desesperes si no lo logras a la primera, reuerda que todo lleva esfuerzo y mucho tiempo. 
+No dudes en escribirnos si tienes alguna duda o sugerencia. 
 
 ## Tecnologías
 
@@ -31,7 +34,7 @@ Esta página fue creada con:
 
 Además se incluyen *Google Fonts*
 
-## Español
+## Idioma
 El texto e la página web escrito en español, sin embargo las clases relacionadas con Bootstrap se incluyen en inglés.
 
 ## Contacto
